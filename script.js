@@ -42,11 +42,12 @@ const scroll = new LocomotiveScroll({
 
 var elements = document.querySelectorAll(".element")
 
-// elements.forEach(function(ele){
-//     var page2 = document.querySelector("page2");
-//     ele.addEventListener("mouseenter", function(){
-//         var bgimg = ele.getAttribute("data-img");
-//         console.log(bgimg);
-//         page2.style.backgroundImage = `url(" + bgimg + ")`;
-//     })
-// })
+elements.forEach(function(ele){
+    var page2 = document.querySelector("#page2");
+    ele.addEventListener("mouseenter", function(){
+        var bgimg = ele.getAttribute("data-img");
+        // console.log(bgimg);
+        page2.style.backgroundImage = `url(${bgimg})`;
+        
+    })
+})

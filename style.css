@@ -63,7 +63,7 @@ html, body{
 
 
 .navbar{
-    width: 100%;
+    width: 100vw;
     position: absolute;
     color: rgb(0, 0, 0);
     background-color: #f5e31b00;
@@ -84,9 +84,9 @@ html, body{
 
 
 .navbar-left h1{
-    font-size: 23px;
+    font-size: 2vw;
     font-weight: 900;
-    padding: 10px;
+    padding: .5em;
 }
 
 .navbar-right ul{
@@ -94,19 +94,19 @@ html, body{
     display: flex;
     align-items: center;
     list-style: none;
-    padding: 1rem;
+    padding: .5em;
     text-decoration: none;
 
 }
 
 .navbar-right ul li{
   
-    margin: 0 20px ;
+    margin: 0 1.2rem ;
    
 }
 .navbar-right ul li a{
     position: relative;
-    font-size: 22px;
+    font-size: 1.8vw;
     color: rgba(0, 0, 0, 0.674);
     text-decoration: none;
     font-weight: 400;
@@ -135,7 +135,7 @@ html, body{
 
 
 #page1{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #ff5800;
     display: flex;
@@ -153,11 +153,13 @@ html, body{
 }
 
 #page2{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #000000;
     color: white;
     display: flex;
+    background-size: cover;
+    background-position: center;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -165,7 +167,6 @@ html, body{
 }
 
 .element{
-    /* background-color: red; */
     width: 100%;
     position: relative;
 }
